@@ -1,55 +1,68 @@
 # Emotion-to-Action AI Pipeline
 
-## Approach
+An end-to-end ML pipeline that transforms reflective journal entries into actionable mental wellness recommendations.
 
-This system predicts a user's emotional state and intensity from **journal text** and **structured behavioral features** (sleep, stress, energy, etc.), then recommends an **action** (rest, breathing, journaling, focus work) and **timing** (now, later, tomorrow) using rule-based logic.
+## 🚀 Features
 
-### Pipeline Overview
+- **Multi-Modal Emotion Classification**: Predicts 6 emotional states using calibrated `LinearSVC`.
+- **Intensity Mapping**: 5-level intensity prediction via `GradientBoostingClassifier`.
+- **Advanced NLP**: Word & Character n-gram TF-IDF + structured feature interactions.
+- **Supportive Conversational System**: Generates human-like, contextualized responses based on emotional state.
+- **Uncertainty-Aware**: Detects and hedges responses for low-confidence predictions.
+- **FastAPI Endpoint**: Ready-for-deployment `POST /predict` API.
+- **Streamlit UI**: Premium dark glassmorphism dashboard for real-time analysis.
 
-1. **Text cleaning** — lowercase, remove special chars, strip whitespace
-2. **Feature engineering** — Advanced TF-IDF (word unigrams/bigrams & character n-grams 3-5), normalized text stats (length/word count), and structured feature interactions (e.g. `stress_x_energy`).
-3. **Classification** — `LinearSVC` (calibrated) for emotion (6 classes), `GradientBoostingClassifier` for intensity (5 classes).
-4. **Uncertainty** — confidence = mean of max probabilities from both models; `uncertain_flag = 1 if confidence < 0.6`.
-5. **Decision engine** — rule-based action/timing assignment using predicted emotion, intensity, stress, and energy levels.
+## 📂 Project Structure
 
-## Model Choices
+```text
+ml-emotion-assistant/
+├── app.py                 # Streamlit UI Demo
+├── main.py                # Full batch pipeline
+├── src/
+│   ├── api/               # FastAPI implementation
+│   ├── decision_engine/   # Rules, Schedulers & Message Templates
+│   ├── evaluation/        # Metrics & Label Noise handling
+│   ├── inference/         # Model loading & Uncertainty estimation
+│   ├── models/            # Training logic
+│   ├── preprocessing/     # Text cleaning & Feature engineering
+│   └── utils/             # Config & Helpers
+├── reports/               # Error analysis & documentation
+├── outputs/               # Saved models & predictions
+└── data/                  # Raw & Processed datasets
+```
 
-| Model | Task | Algorithm | Reason |
-|-------|------|-----------|--------|
-| Emotion | 6-class classification | Calibrated LinearSVC | Best performance on high-dimensional sparse text data, lightweight, provides `predict_proba` via calibration. |
-| Intensity | 5-class classification | GradientBoostingClassifier | Handles complex non-linear splits and mixed feature types well for ordinal intensity classification. |
+## 🛠️ Setup & Usage
 
-The models are tuned for maximizing accuracy without deep learning dependencies, using only `sklearn`.
+### 1. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
 
-## Intensity Modeling Justification
+### 2. Run Batch Inference
+```bash
+python main.py
+```
+Outputs are saved to `outputs/predictions.csv` and `outputs/low_confidence_log.csv`.
 
-**Intensity is modeled as classification (not regression):**
+### 3. Launch the API (FastAPI)
+```bash
+uvicorn src.api.app:app --port 8000
+```
+Interactive docs available at `http://localhost:8000/docs`.
 
-1. **Discrete ordinal values** — intensity is 1–5 with no fractional values, making it naturally categorical
-2. **Uniform distribution** — ~230 samples per class, no class imbalance concerns
-3. **Uncertainty estimation** — classification provides `predict_proba()`, essential for computing confidence scores and `uncertain_flag`; regression models only give point estimates without natural probability distributions
-4. **Bounded output** — classification guarantees predictions in {1,2,3,4,5}; regression could predict values outside this range
-5. **Consistent pipeline** — both models use the same architecture, simplifying the codebase
+### 4. Launch the UI (Streamlit)
+```bash
+streamlit run app.py
+```
+Access the dashboard at `http://localhost:8501`.
 
-## Feature Engineering
+## 🧠 Approach
 
-- **Text Features**: Word-level TF-IDF (1-2 n-grams) & Character-level TF-IDF (3-5 n-grams) capturing rich semantic & morphological signals. Also extracted text statistics.
-- **Structured Features**: Imputed numeric inputs with calculated interactions (`stress_x_energy` and `burnout_index`). One-hot encoding for categorical variables.
-- **Combination**: Sparse horizontal concatenation of all dense strings, text statistics, and one-hot structured data to create a high-fidelity unified feature space.
+The system combines TF-IDF vectorization with structured features (sleep, stress, energy) to create a high-fidelity input space. It uses a hybrid decision engine where ML models classify the state and a rule-based system determines the best action/timing.
 
-## Decision Engine Rules
+### Label Noise Handling
+We implement post-prediction confidence-based flagging. Samples below a threshold (0.6) are logged for review and user-facing messages are automatically hedged (e.g., *"I might be mistaken, but it seems like..."*).
 
-### Action Rules
-| Condition | Action |
-|-----------|--------|
-| overwhelmed OR (stress ≥ 4 AND energy ≤ 2) | rest |
-| restless OR (stress ≥ 3 AND intensity ≥ 4) | breathing |
-| focused OR (energy ≥ 4 AND stress ≤ 2) | focus_work |
-| calm / neutral / mixed | journaling |
+---
 
-### Timing Rules
-| Condition | Timing |
-|-----------|--------|
-| overwhelmed OR (stress ≥ 4 AND intensity ≥ 4) | now |
-| calm AND stress ≤ 2 | tomorrow |
-| Default | later |
+Developed for the ArvyaX assignment. Under the username **ojassahu29**.

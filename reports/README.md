@@ -12,6 +12,31 @@ This system predicts a user's emotional state and intensity from **journal text*
 4. **Uncertainty** — confidence = mean of max probabilities from both models; `uncertain_flag = 1 if confidence < 0.6`.
 5. **Decision engine** — rule-based action/timing assignment using predicted emotion, intensity, stress, and energy levels.
 
+## 🛠️ Setup & Usage
+
+### 1. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Run Batch Inference
+```bash
+python main.py
+```
+Outputs are saved to `outputs/predictions.csv` and `outputs/low_confidence_log.csv`.
+
+### 3. Launch the API (FastAPI)
+```bash
+uvicorn src.api.app:app --port 8000
+```
+Interactive docs available at `http://localhost:8000/docs`.
+
+### 4. Launch the UI (Streamlit)
+```bash
+streamlit run app.py
+```
+Access the dashboard at `http://localhost:8501`.
+
 ## Model Choices
 
 | Model | Task | Algorithm | Reason |

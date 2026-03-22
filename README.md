@@ -31,30 +31,54 @@ ml-emotion-assistant/
 └── data/                  # Raw & Processed datasets
 ```
 
-## 🛠️ Setup & Usage
+## 🛠️ Getting Started (Beginner Friendly Guide)
 
-### 1. Install Dependencies
+Follow these steps to get the project running on your local machine.
+
+### Prerequisites
+- **Python 3.9+** installed on your system.
+- Basic familiarity with the command line / terminal.
+
+### 1. Set Up a Virtual Environment (Recommended)
+It's best practice to create a virtual environment so dependencies don't conflict with other projects.
+```bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 2. Install Dependencies
+Installs all required libraries (like pandas, scikit-learn, FastAPI, and Streamlit).
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Run Batch Inference
+### 3. Run the Full ML Pipeline (Batch Inference)
+This runs the core pipeline: it loads the data, cleans text, extracts features, runs the models, and generates an output CSV with predictions and supportive messages.
 ```bash
 python main.py
 ```
-Outputs are saved to `outputs/predictions.csv` and `outputs/low_confidence_log.csv`.
+*Outputs are saved to:*
+- `outputs/predictions.csv` (contains the predicted emotion, intensity, action, and message)
+- `outputs/low_confidence_log.csv` (contains low-confidence predictions flagged for review)
 
-### 3. Launch the API (FastAPI)
-```bash
-uvicorn src.api.app:app --port 8000
-```
-Interactive docs available at `http://localhost:8000/docs`.
-
-### 4. Launch the UI (Streamlit)
+### 4. Try the Web Dashboard (Streamlit UI)
+Want a visual, interactive way to test the models? We built a beautiful web dashboard!
 ```bash
 streamlit run app.py
 ```
-Access the dashboard at `http://localhost:8501`.
+*This will automatically open a new tab in your browser at `http://localhost:8501`. Just type a journal entry, adjust the sliders, and click "Analyze"!*
+
+### 5. Start the Local API (FastAPI)
+Want to connect this AI to another app or frontend? Start the local API server.
+```bash
+uvicorn src.api.app:app --port 8000
+```
+*You can view the interactive developer documentation at `http://localhost:8000/docs`.*
 
 ## 🧠 Approach
 

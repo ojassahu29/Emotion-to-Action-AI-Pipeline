@@ -1,121 +1,121 @@
-emotional_state,intensity,action,timing,confidence,uncertain_flag
-focused,4,focus_work,later,0.5502,1
-restless,4,breathing,now,0.422,1
-focused,4,rest,now,0.5311,1
-focused,4,breathing,later,0.4833,1
-neutral,5,rest,now,0.4708,1
-mixed,4,focus_work,later,0.4531,1
-restless,2,breathing,later,0.6503,0
-overwhelmed,3,rest,now,0.5897,1
-restless,4,breathing,now,0.6285,0
-overwhelmed,5,rest,now,0.5505,1
-overwhelmed,3,rest,now,0.6391,0
-restless,4,breathing,now,0.4366,1
-focused,4,breathing,later,0.4223,1
-focused,3,rest,later,0.5789,1
-calm,3,focus_work,tomorrow,0.5726,1
-neutral,4,focus_work,later,0.3568,1
-mixed,5,journaling,later,0.5719,1
-mixed,2,journaling,later,0.5879,1
-focused,5,focus_work,later,0.4549,1
-calm,4,journaling,tomorrow,0.4557,1
-overwhelmed,1,rest,now,0.5385,1
-calm,2,focus_work,tomorrow,0.6151,0
-overwhelmed,2,rest,now,0.3401,1
-neutral,1,rest,later,0.5663,1
-calm,4,rest,now,0.453,1
-overwhelmed,4,rest,now,0.4929,1
-mixed,3,journaling,later,0.5724,1
-mixed,2,journaling,later,0.5369,1
-overwhelmed,5,rest,now,0.5865,1
-calm,4,journaling,tomorrow,0.5072,1
-focused,4,focus_work,later,0.5475,1
-focused,3,focus_work,later,0.5701,1
-overwhelmed,1,rest,now,0.5235,1
-neutral,4,rest,now,0.4696,1
-focused,4,focus_work,later,0.5162,1
-restless,1,breathing,later,0.3815,1
-calm,4,breathing,now,0.3698,1
-focused,5,focus_work,later,0.5006,1
-mixed,2,rest,later,0.5322,1
-mixed,3,journaling,later,0.4839,1
-overwhelmed,5,rest,now,0.5024,1
-neutral,1,journaling,tomorrow,0.5584,1
-restless,4,breathing,now,0.4762,1
-calm,1,focus_work,tomorrow,0.4493,1
-restless,5,breathing,now,0.4869,1
-focused,2,focus_work,later,0.7003,0
-focused,5,focus_work,later,0.4738,1
-calm,4,breathing,later,0.5848,1
-restless,3,breathing,now,0.6191,0
-restless,4,breathing,now,0.4842,1
-calm,3,focus_work,tomorrow,0.5699,1
-restless,2,breathing,later,0.6803,0
-calm,5,journaling,tomorrow,0.7034,0
-overwhelmed,5,rest,now,0.6019,0
-mixed,5,breathing,later,0.5886,1
-focused,2,focus_work,later,0.5934,1
-overwhelmed,4,rest,now,0.6171,0
-overwhelmed,3,rest,now,0.7183,0
-mixed,5,breathing,now,0.4439,1
-mixed,4,journaling,later,0.3107,1
-neutral,5,breathing,later,0.445,1
-calm,4,breathing,now,0.5752,1
-restless,5,breathing,now,0.5456,1
-calm,4,journaling,tomorrow,0.4925,1
-neutral,5,focus_work,later,0.6854,0
-restless,1,breathing,later,0.6224,0
-restless,2,breathing,later,0.5667,1
-overwhelmed,5,rest,now,0.7242,0
-neutral,3,focus_work,later,0.6092,0
-calm,4,breathing,now,0.3551,1
-mixed,3,rest,later,0.5892,1
-neutral,4,breathing,now,0.5841,1
-focused,5,rest,now,0.4286,1
-mixed,2,journaling,later,0.5334,1
-restless,2,breathing,later,0.3564,1
-mixed,3,rest,later,0.6573,0
-neutral,1,journaling,tomorrow,0.5761,1
-restless,2,breathing,later,0.538,1
-restless,5,breathing,now,0.4615,1
-focused,4,focus_work,later,0.4879,1
-restless,5,rest,now,0.6039,0
-focused,5,focus_work,later,0.3522,1
-neutral,1,journaling,later,0.5087,1
-overwhelmed,3,rest,now,0.7133,0
-calm,1,journaling,tomorrow,0.4448,1
-neutral,2,journaling,later,0.474,1
-mixed,2,journaling,later,0.568,1
-neutral,5,focus_work,later,0.6411,0
-neutral,3,journaling,later,0.4878,1
-mixed,5,focus_work,later,0.5967,1
-neutral,3,journaling,later,0.574,1
-overwhelmed,3,rest,now,0.4923,1
-mixed,4,journaling,later,0.5357,1
-focused,4,rest,now,0.524,1
-overwhelmed,4,rest,now,0.4856,1
-overwhelmed,4,rest,now,0.3454,1
-mixed,2,focus_work,later,0.517,1
-overwhelmed,1,rest,now,0.4456,1
-mixed,4,rest,now,0.4697,1
-mixed,3,journaling,later,0.5527,1
-calm,5,journaling,tomorrow,0.5012,1
-overwhelmed,2,rest,now,0.6158,0
-calm,4,rest,now,0.4904,1
-mixed,4,rest,now,0.4965,1
-overwhelmed,4,rest,now,0.3862,1
-neutral,5,breathing,later,0.5712,1
-restless,4,breathing,now,0.4575,1
-mixed,3,journaling,later,0.5328,1
-neutral,5,breathing,now,0.3729,1
-restless,4,rest,now,0.337,1
-mixed,5,journaling,later,0.5378,1
-mixed,1,journaling,later,0.6504,0
-calm,1,rest,later,0.4963,1
-neutral,3,journaling,later,0.3203,1
-calm,3,journaling,later,0.7407,0
-overwhelmed,3,rest,now,0.7549,0
-neutral,5,breathing,later,0.6933,0
-focused,5,focus_work,later,0.4545,1
-mixed,4,breathing,now,0.6182,0
-restless,5,breathing,now,0.6552,0
+emotional_state,intensity,action,timing,confidence,uncertain_flag,message
+focused,4,focus_work,later,0.5502,1,"I could be off, but it seems like you're feeling quite focused. Perfect conditions for deep work. Block off time and get into flow when you get a chance."
+restless,4,breathing,now,0.422,1,"I could be off, but it seems like you're feeling quite restless. It looks like your mind is quite unsettled. A breathing exercise as soon as possible can act as an anchor."
+focused,4,rest,now,0.5311,1,"I'm not entirely sure, but it looks like you're feeling quite focused. Even focused minds need breaks! Schedule a short rest immediately to stay sharp."
+focused,4,breathing,later,0.4833,1,"I could be off, but it seems like you're feeling quite focused. A quick breath reset in a little while will help sustain your concentration."
+neutral,5,rest,now,0.4708,1,"I'm not entirely sure, but it looks like you're feeling very neutral. Your body might benefit from a gentle rest immediately. Even when things feel neutral, recharging is always a good idea."
+mixed,4,focus_work,later,0.4531,1,"I could be off, but it seems like you're feeling quite mixed. Despite mixed feelings, you have enough energy to do some focused work in a little while. Start small."
+restless,2,breathing,later,0.6503,0,It looks like your mind is a bit unsettled. A breathing exercise a bit later today can act as an anchor.
+overwhelmed,3,rest,now,0.5897,1,"This is my best guess, but it appears that you're feeling moderately overwhelmed. Feeling overwhelmed is a signal your system needs recovery. Step away and rest right now — come back refreshed."
+restless,4,breathing,now,0.6285,0,It looks like your mind is quite unsettled. A breathing exercise right now can act as an anchor.
+overwhelmed,5,rest,now,0.5505,1,"I could be off, but it seems like you're feeling very overwhelmed. It seems like things are very heavy for you right now. A proper rest as soon as possible will help you reset."
+overwhelmed,3,rest,now,0.6391,0,You seem moderately overwhelmed right now. Your mind and body need a break. Try to rest right now — even a short pause can make a big difference.
+restless,4,breathing,now,0.4366,1,"I might be mistaken, but it seems like you're feeling quite restless. Restlessness often responds well to controlled breathing. Try box breathing immediately: inhale 4s, hold 4s, exhale 4s."
+focused,4,breathing,later,0.4223,1,"This is my best guess, but it appears that you're feeling quite focused. Use a breathing technique in a little while to lock in that focus and keep distractions at bay."
+focused,3,rest,later,0.5789,1,"I might be mistaken, but it seems like you're feeling moderately focused. You're focused, which is great — just don't forget to rest a bit later today so you sustain it."
+calm,3,focus_work,tomorrow,0.5726,1,"I could be off, but it seems like you're feeling moderately calm. Your calm state is a productivity asset. Try some light but meaningful focused work when you're ready."
+neutral,4,focus_work,later,0.3568,1,"I might be mistaken, but it seems like you're feeling quite neutral. A neutral state is actually ideal for clear-headed, focused work. Dive in a bit later today."
+mixed,5,journaling,later,0.5719,1,"This is my best guess, but it appears that you're feeling very mixed. Mixed feelings are often best explored through writing. Try journaling when you get a chance to understand what you're experiencing."
+mixed,2,journaling,later,0.5879,1,"I'm not entirely sure, but it looks like you're feeling a bit mixed. When emotions are a bit complex, a journal entry when you get a chance can bring surprising clarity."
+focused,5,focus_work,later,0.4549,1,"I'm not entirely sure, but it looks like you're feeling very focused. You're very focused right now — lean into that and get your most important task done in a little while."
+calm,4,journaling,tomorrow,0.4557,1,"This is my best guess, but it appears that you're feeling quite calm. Writing from a place of calm when you're ready often yields your clearest insights."
+overwhelmed,1,rest,now,0.5385,1,"This is my best guess, but it appears that you're feeling slightly overwhelmed. It looks like you're carrying slightly too much right now. Give yourself permission to rest right now. You deserve it."
+calm,2,focus_work,tomorrow,0.6151,0,Your calm state is a productivity asset. Try some light but meaningful focused work at your own pace.
+overwhelmed,2,rest,now,0.3401,1,"This is my best guess, but it appears that you're feeling a bit overwhelmed. Feeling overwhelmed is a signal your system needs recovery. Step away and rest right now — come back refreshed."
+neutral,1,rest,later,0.5663,1,"I might be mistaken, but it seems like you're feeling slightly neutral. Your body might benefit from a gentle rest a bit later today. Even when things feel neutral, recharging is always a good idea."
+calm,4,rest,now,0.453,1,"I'm not entirely sure, but it looks like you're feeling quite calm. A calm state pairs beautifully with quality rest. Take that time as soon as possible."
+overwhelmed,4,rest,now,0.4929,1,"I could be off, but it seems like you're feeling quite overwhelmed. It looks like you're carrying quite too much right now. Give yourself permission to rest as soon as possible. You deserve it."
+mixed,3,journaling,later,0.5724,1,"This is my best guess, but it appears that you're feeling moderately mixed. When emotions are moderately complex, a journal entry a bit later today can bring surprising clarity."
+mixed,2,journaling,later,0.5369,1,"I might be mistaken, but it seems like you're feeling a bit mixed. Journaling in a little while is a gentle way to make sense of a complicated emotional state."
+overwhelmed,5,rest,now,0.5865,1,"I might be mistaken, but it seems like you're feeling very overwhelmed. You seem very overwhelmed right now. Your mind and body need a break. Try to rest right now — even a short pause can make a big difference."
+calm,4,journaling,tomorrow,0.5072,1,"I'm not entirely sure, but it looks like you're feeling quite calm. Your calm state is perfect for thoughtful reflection. Journal at your own pace to capture your insights."
+focused,4,focus_work,later,0.5475,1,"I could be off, but it seems like you're feeling quite focused. Perfect conditions for deep work. Block off time and get into flow when you get a chance."
+focused,3,focus_work,later,0.5701,1,"I could be off, but it seems like you're feeling moderately focused. You're in a great state of focus! This is your moment — dive into deep work a bit later today."
+overwhelmed,1,rest,now,0.5235,1,"I could be off, but it seems like you're feeling slightly overwhelmed. Feeling overwhelmed is a signal your system needs recovery. Step away and rest as soon as possible — come back refreshed."
+neutral,4,rest,now,0.4696,1,"I could be off, but it seems like you're feeling quite neutral. Your body might benefit from a gentle rest right now. Even when things feel neutral, recharging is always a good idea."
+focused,4,focus_work,later,0.5162,1,"This is my best guess, but it appears that you're feeling quite focused. Perfect conditions for deep work. Block off time and get into flow in a little while."
+restless,1,breathing,later,0.3815,1,"I might be mistaken, but it seems like you're feeling slightly restless. Restlessness often responds well to controlled breathing. Try box breathing when you get a chance: inhale 4s, hold 4s, exhale 4s."
+calm,4,breathing,now,0.3698,1,"I could be off, but it seems like you're feeling quite calm. Reinforce your calm state with a brief breathing practice immediately."
+focused,5,focus_work,later,0.5006,1,"I'm not entirely sure, but it looks like you're feeling very focused. Your energy and clarity are aligned. Use this window for focused, distraction-free work in a little while."
+mixed,2,rest,later,0.5322,1,"I could be off, but it seems like you're feeling a bit mixed. With mixed emotions swirling around, rest can be grounding. Give yourself some quiet time when you get a chance."
+mixed,3,journaling,later,0.4839,1,"I might be mistaken, but it seems like you're feeling moderately mixed. When emotions are moderately complex, a journal entry in a little while can bring surprising clarity."
+overwhelmed,5,rest,now,0.5024,1,"I'm not entirely sure, but it looks like you're feeling very overwhelmed. You seem very overwhelmed right now. Your mind and body need a break. Try to rest immediately — even a short pause can make a big difference."
+neutral,1,journaling,tomorrow,0.5584,1,"I'm not entirely sure, but it looks like you're feeling slightly neutral. Use this stable moment to journal when you're ready — it's good for insight and self-awareness."
+restless,4,breathing,now,0.4762,1,"I could be off, but it seems like you're feeling quite restless. It looks like your mind is quite unsettled. A breathing exercise immediately can act as an anchor."
+calm,1,focus_work,tomorrow,0.4493,1,"This is my best guess, but it appears that you're feeling slightly calm. Calm focus is powerful. Use this window for thoughtful, quality work at your own pace."
+restless,5,breathing,now,0.4869,1,"I could be off, but it seems like you're feeling very restless. It looks like your mind is very unsettled. A breathing exercise immediately can act as an anchor."
+focused,2,focus_work,later,0.7003,0,You're a bit focused right now — lean into that and get your most important task done when you get a chance.
+focused,5,focus_work,later,0.4738,1,"I might be mistaken, but it seems like you're feeling very focused. Perfect conditions for deep work. Block off time and get into flow when you get a chance."
+calm,4,breathing,later,0.5848,1,"This is my best guess, but it appears that you're feeling quite calm. Reinforce your calm state with a brief breathing practice a bit later today."
+restless,3,breathing,now,0.6191,0,A few intentional breaths right now could do wonders for the restlessness you're feeling.
+restless,4,breathing,now,0.4842,1,"I'm not entirely sure, but it looks like you're feeling quite restless. A few intentional breaths as soon as possible could do wonders for the restlessness you're feeling."
+calm,3,focus_work,tomorrow,0.5699,1,"I could be off, but it seems like you're feeling moderately calm. Calm focus is powerful. Use this window for thoughtful, quality work when you're ready."
+restless,2,breathing,later,0.6803,0,"Restlessness often responds well to controlled breathing. Try box breathing in a little while: inhale 4s, hold 4s, exhale 4s."
+calm,5,journaling,tomorrow,0.7034,0,Writing from a place of calm when you're ready often yields your clearest insights.
+overwhelmed,5,rest,now,0.6019,0,Feeling overwhelmed is a signal your system needs recovery. Step away and rest as soon as possible — come back refreshed.
+mixed,5,breathing,later,0.5886,1,"I might be mistaken, but it seems like you're feeling very mixed. Mixed emotions can create inner noise. A breathing exercise in a little while can help you find clarity."
+focused,2,focus_work,later,0.5934,1,"I'm not entirely sure, but it looks like you're feeling a bit focused. You're in a great state of focus! This is your moment — dive into deep work when you get a chance."
+overwhelmed,4,rest,now,0.6171,0,It seems like things are quite heavy for you right now. A proper rest immediately will help you reset.
+overwhelmed,3,rest,now,0.7183,0,You seem moderately overwhelmed right now. Your mind and body need a break. Try to rest right now — even a short pause can make a big difference.
+mixed,5,breathing,now,0.4439,1,"I could be off, but it seems like you're feeling very mixed. Mixed emotions can create inner noise. A breathing exercise immediately can help you find clarity."
+mixed,4,journaling,later,0.3107,1,"I might be mistaken, but it seems like you're feeling quite mixed. Journaling when you get a chance is a gentle way to make sense of a complicated emotional state."
+neutral,5,breathing,later,0.445,1,"I might be mistaken, but it seems like you're feeling very neutral. A short mindful breathing session in a little while can sharpen your focus and awareness."
+calm,4,breathing,now,0.5752,1,"I might be mistaken, but it seems like you're feeling quite calm. Reinforce your calm state with a brief breathing practice right now."
+restless,5,breathing,now,0.5456,1,"I'm not entirely sure, but it looks like you're feeling very restless. It looks like your mind is very unsettled. A breathing exercise right now can act as an anchor."
+calm,4,journaling,tomorrow,0.4925,1,"I might be mistaken, but it seems like you're feeling quite calm. Your calm state is perfect for thoughtful reflection. Journal tomorrow to capture your insights."
+neutral,5,focus_work,later,0.6854,0,"With a steady baseline, you're set up well for a focused work session a bit later today."
+restless,1,breathing,later,0.6224,0,A few intentional breaths when you get a chance could do wonders for the restlessness you're feeling.
+restless,2,breathing,later,0.5667,1,"This is my best guess, but it appears that you're feeling a bit restless. Restlessness often responds well to controlled breathing. Try box breathing when you get a chance: inhale 4s, hold 4s, exhale 4s."
+overwhelmed,5,rest,now,0.7242,0,Feeling overwhelmed is a signal your system needs recovery. Step away and rest as soon as possible — come back refreshed.
+neutral,3,focus_work,later,0.6092,0,"A neutral state is actually ideal for clear-headed, focused work. Dive in in a little while."
+calm,4,breathing,now,0.3551,1,"I might be mistaken, but it seems like you're feeling quite calm. Reinforce your calm state with a brief breathing practice right now."
+mixed,3,rest,later,0.5892,1,"I'm not entirely sure, but it looks like you're feeling moderately mixed. With mixed emotions swirling around, rest can be grounding. Give yourself some quiet time a bit later today."
+neutral,4,breathing,now,0.5841,1,"This is my best guess, but it appears that you're feeling quite neutral. A short mindful breathing session right now can sharpen your focus and awareness."
+focused,5,rest,now,0.4286,1,"This is my best guess, but it appears that you're feeling very focused. You're focused, which is great — just don't forget to rest as soon as possible so you sustain it."
+mixed,2,journaling,later,0.5334,1,"This is my best guess, but it appears that you're feeling a bit mixed. Mixed feelings are often best explored through writing. Try journaling in a little while to understand what you're experiencing."
+restless,2,breathing,later,0.3564,1,"I might be mistaken, but it seems like you're feeling a bit restless. A few intentional breaths in a little while could do wonders for the restlessness you're feeling."
+mixed,3,rest,later,0.6573,0,It's okay to feel a mix of things. Resting in a little while gives your mind space to settle.
+neutral,1,journaling,tomorrow,0.5761,1,"I might be mistaken, but it seems like you're feeling slightly neutral. A neutral state is a great time to reflect. Try journaling at your own pace to capture your current thoughts."
+restless,2,breathing,later,0.538,1,"I could be off, but it seems like you're feeling a bit restless. Restlessness often responds well to controlled breathing. Try box breathing when you get a chance: inhale 4s, hold 4s, exhale 4s."
+restless,5,breathing,now,0.4615,1,"I'm not entirely sure, but it looks like you're feeling very restless. It looks like your mind is very unsettled. A breathing exercise as soon as possible can act as an anchor."
+focused,4,focus_work,later,0.4879,1,"I'm not entirely sure, but it looks like you're feeling quite focused. Perfect conditions for deep work. Block off time and get into flow when you get a chance."
+restless,5,rest,now,0.6039,0,It seems like your energy is very scattered right now. Some quiet rest as soon as possible could help ground you.
+focused,5,focus_work,later,0.3522,1,"This is my best guess, but it appears that you're feeling very focused. You're in a great state of focus! This is your moment — dive into deep work in a little while."
+neutral,1,journaling,later,0.5087,1,"I'm not entirely sure, but it looks like you're feeling slightly neutral. A neutral state is a great time to reflect. Try journaling a bit later today to capture your current thoughts."
+overwhelmed,3,rest,now,0.7133,0,It looks like you're carrying moderately too much right now. Give yourself permission to rest right now. You deserve it.
+calm,1,journaling,tomorrow,0.4448,1,"I'm not entirely sure, but it looks like you're feeling slightly calm. Your calm state is perfect for thoughtful reflection. Journal at your own pace to capture your insights."
+neutral,2,journaling,later,0.474,1,"This is my best guess, but it appears that you're feeling a bit neutral. A neutral state is a great time to reflect. Try journaling in a little while to capture your current thoughts."
+mixed,2,journaling,later,0.568,1,"I'm not entirely sure, but it looks like you're feeling a bit mixed. When emotions are a bit complex, a journal entry a bit later today can bring surprising clarity."
+neutral,5,focus_work,later,0.6411,0,"With a steady baseline, you're set up well for a focused work session in a little while."
+neutral,3,journaling,later,0.4878,1,"I could be off, but it seems like you're feeling moderately neutral. Use this stable moment to journal a bit later today — it's good for insight and self-awareness."
+mixed,5,focus_work,later,0.5967,1,"I might be mistaken, but it seems like you're feeling very mixed. Despite mixed feelings, you have enough energy to do some focused work when you get a chance. Start small."
+neutral,3,journaling,later,0.574,1,"I might be mistaken, but it seems like you're feeling moderately neutral. A neutral state is a great time to reflect. Try journaling a bit later today to capture your current thoughts."
+overwhelmed,3,rest,now,0.4923,1,"This is my best guess, but it appears that you're feeling moderately overwhelmed. It seems like things are moderately heavy for you right now. A proper rest as soon as possible will help you reset."
+mixed,4,journaling,later,0.5357,1,"I might be mistaken, but it seems like you're feeling quite mixed. Mixed feelings are often best explored through writing. Try journaling in a little while to understand what you're experiencing."
+focused,4,rest,now,0.524,1,"I could be off, but it seems like you're feeling quite focused. Even focused minds need breaks! Schedule a short rest right now to stay sharp."
+overwhelmed,4,rest,now,0.4856,1,"I'm not entirely sure, but it looks like you're feeling quite overwhelmed. It seems like things are quite heavy for you right now. A proper rest right now will help you reset."
+overwhelmed,4,rest,now,0.3454,1,"I'm not entirely sure, but it looks like you're feeling quite overwhelmed. It seems like things are quite heavy for you right now. A proper rest immediately will help you reset."
+mixed,2,focus_work,later,0.517,1,"This is my best guess, but it appears that you're feeling a bit mixed. Despite mixed feelings, you have enough energy to do some focused work a bit later today. Start small."
+overwhelmed,1,rest,now,0.4456,1,"I might be mistaken, but it seems like you're feeling slightly overwhelmed. It looks like you're carrying slightly too much right now. Give yourself permission to rest right now. You deserve it."
+mixed,4,rest,now,0.4697,1,"I could be off, but it seems like you're feeling quite mixed. It's okay to feel a mix of things. Resting as soon as possible gives your mind space to settle."
+mixed,3,journaling,later,0.5527,1,"This is my best guess, but it appears that you're feeling moderately mixed. When emotions are moderately complex, a journal entry in a little while can bring surprising clarity."
+calm,5,journaling,tomorrow,0.5012,1,"I might be mistaken, but it seems like you're feeling very calm. Writing from a place of calm at your own pace often yields your clearest insights."
+overwhelmed,2,rest,now,0.6158,0,It seems like things are a bit heavy for you right now. A proper rest immediately will help you reset.
+calm,4,rest,now,0.4904,1,"This is my best guess, but it appears that you're feeling quite calm. A calm state pairs beautifully with quality rest. Take that time as soon as possible."
+mixed,4,rest,now,0.4965,1,"I could be off, but it seems like you're feeling quite mixed. With mixed emotions swirling around, rest can be grounding. Give yourself some quiet time right now."
+overwhelmed,4,rest,now,0.3862,1,"I might be mistaken, but it seems like you're feeling quite overwhelmed. It seems like things are quite heavy for you right now. A proper rest right now will help you reset."
+neutral,5,breathing,later,0.5712,1,"I'm not entirely sure, but it looks like you're feeling very neutral. A short mindful breathing session a bit later today can sharpen your focus and awareness."
+restless,4,breathing,now,0.4575,1,"I might be mistaken, but it seems like you're feeling quite restless. It looks like your mind is quite unsettled. A breathing exercise right now can act as an anchor."
+mixed,3,journaling,later,0.5328,1,"I could be off, but it seems like you're feeling moderately mixed. Mixed feelings are often best explored through writing. Try journaling a bit later today to understand what you're experiencing."
+neutral,5,breathing,now,0.3729,1,"I could be off, but it seems like you're feeling very neutral. A short mindful breathing session right now can sharpen your focus and awareness."
+restless,4,rest,now,0.337,1,"This is my best guess, but it appears that you're feeling quite restless. When restlessness peaks, rest is often the best medicine. Take a break immediately and let your body settle."
+mixed,5,journaling,later,0.5378,1,"I might be mistaken, but it seems like you're feeling very mixed. Mixed feelings are often best explored through writing. Try journaling in a little while to understand what you're experiencing."
+mixed,1,journaling,later,0.6504,0,Mixed feelings are often best explored through writing. Try journaling in a little while to understand what you're experiencing.
+calm,1,rest,later,0.4963,1,"This is my best guess, but it appears that you're feeling slightly calm. A calm state pairs beautifully with quality rest. Take that time a bit later today."
+neutral,3,journaling,later,0.3203,1,"I could be off, but it seems like you're feeling moderately neutral. Use this stable moment to journal when you get a chance — it's good for insight and self-awareness."
+calm,3,journaling,later,0.7407,0,Writing from a place of calm a bit later today often yields your clearest insights.
+overwhelmed,3,rest,now,0.7549,0,It seems like things are moderately heavy for you right now. A proper rest right now will help you reset.
+neutral,5,breathing,later,0.6933,0,A short mindful breathing session a bit later today can sharpen your focus and awareness.
+focused,5,focus_work,later,0.4545,1,"This is my best guess, but it appears that you're feeling very focused. Your energy and clarity are aligned. Use this window for focused, distraction-free work a bit later today."
+mixed,4,breathing,now,0.6182,0,"When feelings are tangled, breathing is a simple way to create space. Try it as soon as possible."
+restless,5,breathing,now,0.6552,0,You're feeling very restless. A short breathing exercise immediately can help slow things down and ease that tension.

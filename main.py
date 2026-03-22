@@ -38,7 +38,7 @@ from src.inference.uncertainty import compute_confidence, compute_uncertain_flag
 from src.decision_engine.recommendation import generate_recommendations
 from src.evaluation.metrics import evaluate_emotion, evaluate_intensity
 from src.evaluation.ablation import run_ablation
-from src.evaluation.error_analysis import analyze_errors
+from src.evaluation.error_analysis import analyze_errors, detect_low_confidence_predictions
 from src.utils.config import PREDICTIONS_FILE, OUTPUTS_DIR, MODELS_DIR
 from src.utils.helpers import save_csv, save_pickle, ensure_dir
 
@@ -160,6 +160,15 @@ def main():
     print(f"  Mean confidence: {confidence.mean():.4f}")
     print(f"  Uncertain samples: {uncertain_flag.sum()} / {len(uncertain_flag)}")
 
+    # ── LABEL NOISE: flag low-confidence predictions and log them ─────────
+    print("\n  [Label Noise] Detecting low-confidence predictions...")
+    detect_low_confidence_predictions(
+        test_emotions, emotion_confidence, model_name="Emotion"
+    )
+    detect_low_confidence_predictions(
+        test_intensity, intensity_confidence, model_name="Intensity"
+    )
+
     # ── 10. DECISION ENGINE ──────────────────────────────────────────────
     print("\n[11/11] Generating recommendations...")
     results_df = pd.DataFrame({
@@ -168,7 +177,8 @@ def main():
         "stress_level": test_df["stress_level"].values,
         "energy_level": test_df["energy_level"].values,
     })
-    results_df = generate_recommendations(results_df)
+    # Pass uncertain_flags so messages reflect model confidence (Features 1, 2, 6)
+    results_df = generate_recommendations(results_df, uncertain_flags=uncertain_flag)
 
     # ── 11. SAVE OUTPUT ──────────────────────────────────────────────────
     output_df = pd.DataFrame({
@@ -178,6 +188,7 @@ def main():
         "timing": results_df["timing"],
         "confidence": np.round(confidence, 4),
         "uncertain_flag": uncertain_flag,
+        "message": results_df["message"],   # Feature 1 — supportive message
     })
 
     save_csv(output_df, PREDICTIONS_FILE)
